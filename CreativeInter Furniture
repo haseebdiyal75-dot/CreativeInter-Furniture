@@ -1,0 +1,1074 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CreativeInter Furnitures | Manufacturer · Wholesaler · Importer – Islamabad</title>
+<meta name="description" content="Premium furniture manufacturer and wholesaler in Islamabad. Home & office furniture, beds, sofas, dining tables and more. Visit Soan Gardens showroom.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&family=DM+Sans:opsz,wght@9..40,200;9..40,300;9..40,400;9..40,500&family=Playfair+Display:ital,wght@1,400;1,700&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --ink:#08060A;
+  --ink2:#100D14;
+  --deep:#1A1020;
+  --wood-deep:#2E1A08;
+  --wood-mid:#6A3818;
+  --wood-warm:#A05020;
+  --gold:#C89840;
+  --gold-hi:#E8B85A;
+  --gold-lo:rgba(200,152,64,.15);
+  --gold-med:rgba(200,152,64,.35);
+  --cream:#F4EAD5;
+  --cream2:#DEC99A;
+  --muted:#7A6050;
+  --white:#FDFAF3;
+  --accent:#8B4513;
+}
+html{scroll-behavior:smooth;font-size:16px}
+body{background:var(--ink);color:var(--cream);font-family:'DM Sans',sans-serif;font-weight:300;overflow-x:hidden}
+
+
+
+/* ── Noise overlay ── */
+body::after{content:'';position:fixed;inset:0;z-index:1;pointer-events:none;opacity:.04;
+  background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  background-size:256px}
+
+/* ── Notice bar ── */
+#notice{
+  position:relative;z-index:300;
+  background:linear-gradient(90deg,var(--wood-deep),var(--wood-mid),var(--wood-deep));
+  color:var(--cream2);
+  text-align:center;padding:.55rem 1rem;
+  font-size:.64rem;letter-spacing:.22em;text-transform:uppercase;font-weight:400;
+  border-bottom:1px solid rgba(200,152,64,.2);
+}
+#notice a{color:var(--gold);text-decoration:none;border-bottom:1px solid rgba(200,152,64,.4)}
+
+/* ── NAV ── */
+nav{
+  position:fixed;top:0;left:0;width:100%;z-index:200;
+  display:flex;justify-content:space-between;align-items:center;
+  padding:1.2rem 5%;
+  transition:background .5s,padding .4s,box-shadow .4s,top .4s;
+}
+nav.scrolled{
+  background:rgba(8,6,10,.97);padding:.8rem 5%;
+  box-shadow:0 1px 0 rgba(200,152,64,.15);
+  backdrop-filter:blur(14px);
+}
+.logo-mono{display:flex;align-items:center;gap:.75rem;text-decoration:none;flex-shrink:0}
+.fpl-mark{
+  width:42px;height:42px;border:1px solid rgba(200,152,64,.5);
+  border-radius:2px;display:flex;align-items:center;justify-content:center;
+  position:relative;overflow:hidden;flex-shrink:0;
+  background:linear-gradient(135deg,rgba(200,152,64,.08),transparent);
+}
+.fpl-mark::before{content:'';position:absolute;inset:0;background:linear-gradient(135deg,transparent 45%,rgba(200,152,64,.07) 45%)}
+.fpl-letters{font-family:'Cormorant Garamond',serif;font-size:1.1rem;font-weight:600;color:var(--gold);letter-spacing:.02em;line-height:1;position:relative;z-index:1}
+.fpl-glow{position:absolute;width:20px;height:20px;background:radial-gradient(circle,rgba(200,152,64,.35),transparent 70%);top:50%;left:50%;transform:translate(-50%,-50%);animation:pulse-glow 2.5s ease-in-out infinite}
+@keyframes pulse-glow{0%,100%{opacity:.4;transform:translate(-50%,-50%) scale(.8)}50%{opacity:1;transform:translate(-50%,-50%) scale(1.4)}}
+.logo-text{font-family:'Cormorant Garamond',serif;font-size:1.3rem;font-weight:600;letter-spacing:.04em;color:var(--cream);line-height:1}
+.logo-text span{color:var(--gold)}
+.logo-sub{font-size:.52rem;letter-spacing:.2em;text-transform:uppercase;color:var(--muted);margin-top:.1rem}
+.nav-center{display:flex;gap:2.2rem;list-style:none}
+.nav-center a{font-size:.63rem;letter-spacing:.24em;text-transform:uppercase;color:rgba(212,195,155,.7);text-decoration:none;transition:color .3s;position:relative;font-weight:400}
+.nav-center a::after{content:'';position:absolute;bottom:-4px;left:0;width:0;height:1px;background:var(--gold);transition:width .35s}
+.nav-center a:hover{color:var(--gold)}
+.nav-center a:hover::after{width:100%}
+.nav-right{display:flex;gap:.7rem;align-items:center}
+.btn-sm{display:inline-flex;align-items:center;gap:.45rem;padding:.5rem 1.2rem;border-radius:1px;font-size:.62rem;letter-spacing:.18em;text-transform:uppercase;font-weight:500;text-decoration:none;transition:all .28s;border:none;font-family:'DM Sans',sans-serif}
+.btn-wa{background:#128C7E;color:#fff}
+.btn-wa:hover{background:#075E54;transform:translateY(-1px);box-shadow:0 4px 18px rgba(18,140,126,.3)}
+.btn-gold{background:var(--gold);color:var(--ink)}
+.btn-gold:hover{background:var(--gold-hi);transform:translateY(-1px);box-shadow:0 4px 18px rgba(200,152,64,.3)}
+.btn-outline{border:1px solid rgba(200,152,64,.4);color:var(--gold);background:transparent}
+.btn-outline:hover{background:var(--gold-lo);border-color:var(--gold)}
+.btn-lg{padding:.85rem 2.2rem;font-size:.7rem}
+.ham{display:none;flex-direction:column;gap:5px;background:none;border:none;padding:4px}
+.ham span{display:block;width:22px;height:1.5px;background:var(--cream);transition:.3s}
+.ham.open span:nth-child(1){transform:rotate(45deg) translate(4.5px,4.5px)}
+.ham.open span:nth-child(2){opacity:0}
+.ham.open span:nth-child(3){transform:rotate(-45deg) translate(4.5px,-4.5px)}
+
+/* Mobile menu */
+#mob{display:none;position:fixed;inset:0;z-index:190;background:rgba(8,6,10,.99);flex-direction:column;align-items:center;justify-content:center;gap:2rem}
+#mob.open{display:flex}
+#mob a{font-family:'Cormorant Garamond',serif;font-size:2.1rem;color:var(--cream);text-decoration:none;letter-spacing:.04em;transition:color .3s}
+#mob a:hover{color:var(--gold)}
+#mob hr{width:36px;border:none;border-top:1px solid rgba(200,152,64,.2)}
+
+/* ── HERO ── */
+#hero{
+  min-height:100vh;position:relative;overflow:hidden;
+  display:grid;grid-template-columns:1fr 1fr;align-items:center;
+  padding:140px 5% 100px;gap:5rem;
+}
+.hero-bg{
+  position:absolute;inset:0;z-index:0;
+  background-image:url('https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=800&q=80&auto=format&fit=crop');
+  background-size:cover;background-position:center;
+  filter:brightness(.18) saturate(.7);
+}
+.hero-diag{
+  position:absolute;inset:0;z-index:1;pointer-events:none;
+  background:repeating-linear-gradient(-55deg,transparent,transparent 38px,rgba(200,152,64,.022) 38px,rgba(200,152,64,.022) 39px);
+  animation:diag-drift 30s linear infinite;
+}
+@keyframes diag-drift{from{background-position:0 0}to{background-position:200px 200px}}
+.hero-glow{
+  position:absolute;top:40%;left:30%;transform:translate(-50%,-50%);
+  width:700px;height:700px;border-radius:50%;pointer-events:none;z-index:0;
+  background:radial-gradient(circle,rgba(200,152,64,.09) 0%,transparent 65%);
+  animation:glow-pulse 4s ease-in-out infinite;
+}
+@keyframes glow-pulse{0%,100%{transform:translate(-50%,-50%) scale(1);opacity:.7}50%{transform:translate(-50%,-50%) scale(1.18);opacity:1}}
+.hero-text{position:relative;z-index:2}
+.fi-1{opacity:0;animation:fade-up .8s .1s forwards}
+.fi-2{opacity:0;animation:fade-up .8s .28s forwards}
+.fi-3{opacity:0;animation:fade-up .8s .46s forwards}
+.fi-4{opacity:0;animation:fade-up .8s .64s forwards}
+.fi-5{opacity:0;animation:fade-up .8s .82s forwards}
+.fi-6{opacity:0;animation:fade-up .8s 1s forwards}
+@keyframes fade-up{from{opacity:0;transform:translateY(32px)}to{opacity:1;transform:none}}
+.hero-badge{
+  display:inline-flex;align-items:center;gap:.6rem;
+  border:1px solid rgba(200,152,64,.28);color:var(--gold);
+  font-size:.58rem;letter-spacing:.3em;text-transform:uppercase;
+  padding:.38rem 1.1rem;border-radius:1px;margin-bottom:2rem;
+}
+.hero-badge::before{content:'';display:block;width:20px;height:1px;background:var(--gold)}
+h1.hero-h{font-family:'Cormorant Garamond',serif;font-size:clamp(3.2rem,5.5vw,6.2rem);font-weight:300;line-height:1.0;letter-spacing:-.02em}
+h1.hero-h em{font-style:italic;color:var(--gold)}
+h1.hero-h strong{font-weight:600;display:block}
+.hero-p{font-size:.88rem;color:rgba(212,195,155,.8);line-height:1.9;max-width:420px;margin:1.8rem 0 2.4rem}
+.hero-ctas{display:flex;gap:1rem;flex-wrap:wrap}
+.hero-stats{display:flex;gap:3rem;margin-top:3.5rem;padding-top:2rem;border-top:1px solid rgba(255,255,255,.05);flex-wrap:wrap}
+.stat .n{font-family:'Cormorant Garamond',serif;font-size:2.4rem;color:var(--cream);line-height:1}
+.stat .n em{color:var(--gold);font-size:1.4rem;font-style:normal}
+.stat .l{font-size:.6rem;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);margin-top:.25rem}
+
+/* Hero image panel */
+.hero-img-panel{
+  position:relative;z-index:2;height:520px;
+  border-radius:2px;overflow:hidden;
+  border:1px solid rgba(200,152,64,.18);
+  box-shadow:0 30px 80px rgba(0,0,0,.5);
+}
+.hero-img-panel img{width:100%;height:100%;object-fit:cover;filter:sepia(.1) contrast(1.05)}
+.hero-img-overlay{
+  position:absolute;inset:0;
+  background:linear-gradient(to top,rgba(8,6,10,.55) 0%,transparent 60%);
+}
+.hero-img-tag{
+  position:absolute;bottom:1.5rem;left:1.5rem;
+  background:rgba(8,6,10,.82);backdrop-filter:blur(10px);
+  border:1px solid rgba(200,152,64,.22);
+  padding:.7rem 1.1rem;border-radius:2px;
+  font-size:.62rem;letter-spacing:.18em;text-transform:uppercase;color:var(--gold);
+}
+.hero-img-corner{
+  position:absolute;top:1rem;right:1rem;
+  background:var(--gold);color:var(--ink);
+  font-family:'Cormorant Garamond',serif;font-size:1.5rem;font-weight:600;
+  padding:.5rem .9rem;border-radius:1px;line-height:1.1;text-align:center;
+}
+.hero-img-corner span{display:block;font-family:'DM Sans',sans-serif;font-size:.5rem;letter-spacing:.15em;text-transform:uppercase;font-weight:500}
+
+.scroll-hint{position:absolute;bottom:2.5rem;left:50%;transform:translateX(-50%);display:flex;flex-direction:column;align-items:center;gap:.5rem;color:var(--muted);font-size:.58rem;letter-spacing:.22em;text-transform:uppercase;animation:bob 2.5s ease-in-out infinite;z-index:2}
+.scroll-hint::after{content:'';display:block;width:1px;height:38px;background:linear-gradient(to bottom,var(--gold),transparent)}
+@keyframes bob{0%,100%{transform:translateX(-50%) translateY(0)}50%{transform:translateX(-50%) translateY(7px)}}
+
+/* ── TICKER ── */
+.ticker-wrap{position:relative;z-index:10;overflow:hidden;background:var(--gold);padding:.7rem 0;border-top:1px solid rgba(255,255,255,.1);border-bottom:1px solid rgba(0,0,0,.2)}
+.ticker-inner{display:flex;white-space:nowrap;animation:ticker 38s linear infinite}
+.ticker-inner:hover{animation-play-state:paused}
+.ticker-item{display:inline-flex;align-items:center;gap:.8rem;padding:0 2.5rem;font-size:.65rem;letter-spacing:.22em;text-transform:uppercase;font-weight:500;color:var(--ink)}
+.ticker-item .dot{width:4px;height:4px;background:rgba(14,10,5,.4);border-radius:50%;flex-shrink:0}
+@keyframes ticker{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+
+/* ── Divider ── */
+.wd{height:1px;background:linear-gradient(90deg,transparent 0%,var(--gold) 25%,var(--wood-warm) 50%,var(--gold) 75%,transparent 100%);opacity:.2;margin:0}
+
+/* ── Section base ── */
+section{padding:100px 5%}
+.s-label{display:block;font-size:.58rem;letter-spacing:.32em;text-transform:uppercase;color:var(--gold);margin-bottom:.9rem}
+.s-title{font-family:'Cormorant Garamond',serif;font-size:clamp(2rem,3.5vw,3.4rem);font-weight:300;line-height:1.1}
+.s-title em{font-style:italic;color:var(--gold)}
+.s-head{display:flex;justify-content:space-between;align-items:flex-end;margin-bottom:4rem;gap:1.5rem;flex-wrap:wrap}
+
+/* ── BRAND STORY ── */
+#story{background:linear-gradient(150deg,var(--ink2) 0%,var(--deep) 100%);display:grid;grid-template-columns:1fr 1fr;gap:6rem;align-items:center;position:relative;overflow:hidden}
+#story::before{content:'';position:absolute;left:-5%;top:-10%;width:500px;height:500px;border-radius:50%;background:radial-gradient(circle,rgba(200,152,64,.05),transparent 65%);pointer-events:none}
+.story-img-wrap{position:relative}
+.story-img{height:560px;border-radius:2px;overflow:hidden;position:relative;border:1px solid rgba(200,152,64,.12);background:linear-gradient(135deg,#2E1A08,#1A0D05)}
+.story-img img{width:100%;height:100%;object-fit:cover;filter:sepia(.12) contrast(1.04);opacity:0;transition:opacity .5s}
+.story-img img.loaded{opacity:1}
+.story-overlay{position:absolute;inset:0;background:linear-gradient(to top,rgba(8,6,10,.7) 0%,transparent 50%)}
+.story-float{position:absolute;bottom:1.8rem;left:1.8rem;background:var(--gold);color:var(--ink);padding:.9rem 1.4rem;border-radius:2px}
+.story-float .fn{font-family:'Cormorant Garamond',serif;font-size:2.2rem;font-weight:600;line-height:1}
+.story-float .fl{font-size:.56rem;letter-spacing:.17em;text-transform:uppercase;margin-top:.18rem}
+.story-img-wrap::after{content:'';position:absolute;top:1.5rem;left:-1.5rem;bottom:1.5rem;width:1px;background:linear-gradient(to bottom,transparent,var(--gold),transparent);opacity:.35}
+.story-copy p{font-size:.86rem;color:rgba(220,200,160,.8);line-height:1.95;margin-bottom:1.1rem}
+.feat-list{list-style:none;margin-top:2rem;display:flex;flex-direction:column;gap:.8rem}
+.feat-list li{display:flex;align-items:center;gap:1rem;font-size:.78rem;color:rgba(220,200,160,.85);padding:.5rem 0;border-bottom:1px solid rgba(255,255,255,.04)}
+.feat-list li::before{content:'';display:block;width:22px;height:1px;background:var(--gold);flex-shrink:0;box-shadow:0 0 6px rgba(200,152,64,.5)}
+
+/* ── PHILOSOPHY ── */
+#philosophy{background:var(--wood-deep);text-align:center;padding:80px 5%;position:relative;overflow:hidden}
+#philosophy::before{content:'"';position:absolute;top:-20px;left:50%;transform:translateX(-50%);font-family:'Cormorant Garamond',serif;font-size:18rem;color:rgba(200,152,64,.04);line-height:1;pointer-events:none}
+.phil-quote{font-family:'Playfair Display',serif;font-style:italic;font-size:clamp(1.4rem,2.8vw,2.4rem);line-height:1.5;color:var(--cream2);max-width:820px;margin:0 auto 1.5rem}
+.phil-attr{font-size:.68rem;letter-spacing:.25em;text-transform:uppercase;color:var(--gold);display:flex;align-items:center;justify-content:center;gap:1rem}
+.phil-attr::before,.phil-attr::after{content:'';display:block;width:30px;height:1px;background:var(--gold);opacity:.5}
+
+/* ── STATS BAR ── */
+#stats{background:linear-gradient(90deg,var(--ink) 0%,var(--deep) 50%,var(--ink) 100%);padding:60px 5%;border-top:1px solid rgba(200,152,64,.1);border-bottom:1px solid rgba(200,152,64,.1)}
+.stats-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:2rem}
+.stat-block{text-align:center;padding:2rem;border-right:1px solid rgba(200,152,64,.1);position:relative}
+.stat-block:last-child{border-right:none}
+.stat-block::before{content:'';position:absolute;top:0;left:50%;transform:translateX(-50%);width:40px;height:1px;background:var(--gold);opacity:.4}
+.stat-big{font-family:'Cormorant Garamond',serif;font-size:3.5rem;font-weight:300;color:var(--cream);line-height:1;display:block}
+.stat-big em{color:var(--gold);font-style:normal;font-size:2rem}
+.stat-label{font-size:.62rem;letter-spacing:.2em;text-transform:uppercase;color:var(--muted);margin-top:.5rem;display:block}
+.stat-sub{font-size:.74rem;color:rgba(220,200,160,.5);margin-top:.25rem;display:block}
+
+/* ── COLLECTION ── */
+#cats{background:linear-gradient(165deg,var(--ink) 0%,var(--ink2) 100%)}
+.cat-tabs{display:flex;gap:.5rem;flex-wrap:wrap;margin-bottom:3rem}
+.cat-tab{padding:.5rem 1.25rem;border:1px solid rgba(200,152,64,.2);color:var(--muted);font-size:.63rem;letter-spacing:.18em;text-transform:uppercase;background:none;border-radius:1px;transition:all .3s;cursor:pointer;font-family:'DM Sans',sans-serif}
+.cat-tab.active,.cat-tab:hover{background:var(--gold);color:var(--ink);border-color:var(--gold);box-shadow:0 4px 16px rgba(200,152,64,.25)}
+.products-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1.5px}
+.p-card{position:relative;overflow:hidden;background:linear-gradient(145deg,rgba(30,15,5,.35),rgba(8,6,10,.9));border:1px solid rgba(200,152,64,.08);transition:border-color .4s,transform .35s,box-shadow .35s}
+.p-card:hover{border-color:rgba(200,152,64,.28);transform:translateY(-4px);box-shadow:0 16px 40px rgba(0,0,0,.4)}
+.p-img{height:240px;overflow:hidden;position:relative;background:linear-gradient(135deg,#2E1A08 0%,#1A0D05 100%)}
+.p-img img{width:100%;height:100%;object-fit:cover;transition:transform .6s ease,opacity .4s ease;display:block;opacity:0}
+.p-img img.loaded{opacity:1}
+.p-card:hover .p-img img{transform:scale(1.06)}
+.p-shine{position:absolute;inset:0;background:linear-gradient(135deg,rgba(255,255,255,.06),transparent 50%);pointer-events:none;z-index:2}
+.p-img-overlay{position:absolute;inset:0;background:linear-gradient(to top,rgba(8,6,10,.65) 0%,transparent 55%);z-index:1}
+.p-badge{position:absolute;top:.9rem;left:.9rem;background:var(--gold);color:var(--ink);font-size:.53rem;letter-spacing:.15em;text-transform:uppercase;padding:.22rem .6rem;border-radius:1px;font-weight:500;z-index:3}
+.p-body{padding:1.5rem 1.5rem 1.8rem}
+.p-cat{font-size:.56rem;letter-spacing:.22em;text-transform:uppercase;color:var(--gold);margin-bottom:.45rem;display:block}
+.p-name{font-family:'Cormorant Garamond',serif;font-size:1.45rem;font-weight:400;color:var(--cream);margin-bottom:.45rem;line-height:1.2}
+.p-desc{font-size:.77rem;color:var(--muted);line-height:1.7;margin-bottom:1.1rem}
+.p-price{font-family:'Cormorant Garamond',serif;font-size:1.25rem;color:var(--cream);margin-bottom:1rem}
+.p-price s{font-size:.85rem;color:var(--muted);margin-right:.4rem;font-family:'DM Sans',sans-serif}
+.p-price .disc{background:rgba(200,152,64,.14);color:var(--gold);font-size:.58rem;padding:.15rem .45rem;border-radius:1px;font-family:'DM Sans',sans-serif;letter-spacing:.08em;vertical-align:middle}
+.p-cta{font-size:.6rem;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);border:none;border-bottom:1px solid rgba(200,152,64,.3);background:none;padding-bottom:3px;cursor:pointer;transition:color .25s,border-color .25s,letter-spacing .25s;font-family:'DM Sans',sans-serif}
+.p-cta:hover{color:var(--gold-hi);border-color:var(--gold-hi);letter-spacing:.28em}
+
+/* ── FEATURED SHOWROOM GALLERY ── */
+#gallery{background:var(--deep);padding:80px 5%}
+.gallery-grid{display:grid;grid-template-columns:2fr 1fr 1fr;grid-template-rows:300px 300px;gap:4px}
+.g-cell{overflow:hidden;position:relative}
+.g-cell img{width:100%;height:100%;object-fit:cover;transition:transform .6s ease;filter:sepia(.08) contrast(1.05)}
+.g-cell:hover img{transform:scale(1.06)}
+.g-cell:first-child{grid-row:span 2}
+.g-label{position:absolute;bottom:.8rem;left:.8rem;background:rgba(8,6,10,.78);backdrop-filter:blur(8px);border:1px solid rgba(200,152,64,.18);color:var(--gold);font-size:.54rem;letter-spacing:.18em;text-transform:uppercase;padding:.3rem .7rem;border-radius:1px;z-index:2}
+
+/* ── DESIGNERS ── */
+#designers{background:var(--deep);position:relative;overflow:hidden}
+#designers::after{content:'';position:absolute;right:-100px;bottom:-100px;width:400px;height:400px;border-radius:50%;background:radial-gradient(circle,rgba(200,152,64,.05),transparent 65%)}
+.designers-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem;margin-top:1rem}
+.d-card{background:rgba(255,255,255,.022);border:1px solid rgba(200,152,64,.1);border-radius:2px;padding:2.2rem 2rem;position:relative;overflow:hidden;transition:border-color .35s,transform .35s}
+.d-card:hover{border-color:rgba(200,152,64,.25);transform:translateY(-4px)}
+.d-card::before{content:'';position:absolute;top:0;left:0;right:0;height:2px;background:linear-gradient(90deg,transparent,var(--gold),transparent);opacity:0;transition:opacity .35s}
+.d-card:hover::before{opacity:1}
+.d-avatar{width:58px;height:58px;border-radius:50%;background:linear-gradient(135deg,var(--wood-mid),var(--wood-deep));border:1px solid rgba(200,152,64,.3);display:flex;align-items:center;justify-content:center;margin-bottom:1.2rem;font-family:'Cormorant Garamond',serif;font-size:1.5rem;color:var(--gold);font-weight:600}
+.d-name{font-family:'Cormorant Garamond',serif;font-size:1.25rem;color:var(--cream);margin-bottom:.3rem}
+.d-role{font-size:.62rem;letter-spacing:.18em;text-transform:uppercase;color:var(--gold);margin-bottom:.9rem}
+.d-spec{font-size:.77rem;color:var(--muted);line-height:1.7}
+.d-exp{display:inline-block;margin-top:1.2rem;background:rgba(200,152,64,.1);color:var(--gold);font-size:.58rem;letter-spacing:.14em;text-transform:uppercase;padding:.22rem .65rem;border-radius:1px}
+
+/* ── SERVICES ── */
+#services{background:var(--ink2);position:relative}
+.srv-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:1.5rem;margin-top:1rem}
+.srv-item{display:flex;gap:1.5rem;align-items:flex-start;padding:1.8rem;border:1px solid rgba(200,152,64,.08);border-radius:2px;background:rgba(255,255,255,.015);transition:border-color .35s,background .35s}
+.srv-item:hover{border-color:rgba(200,152,64,.22);background:rgba(200,152,64,.03)}
+.srv-icon{width:42px;height:42px;border:1px solid rgba(200,152,64,.3);border-radius:50%;display:flex;align-items:center;justify-content:center;flex-shrink:0;background:rgba(200,152,64,.06)}
+.srv-icon svg{width:18px;height:18px;stroke:var(--gold);fill:none;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
+.srv-title{font-family:'Cormorant Garamond',serif;font-size:1.2rem;color:var(--cream);margin-bottom:.4rem}
+.srv-desc{font-size:.78rem;color:var(--muted);line-height:1.75}
+
+/* ── WHY US ── */
+#whyus{
+  background:var(--wood-deep);
+  display:grid;grid-template-columns:1fr 1fr;gap:5rem;align-items:center;
+  position:relative;overflow:hidden;
+}
+.whyus-img{position:relative;height:500px;border-radius:2px;overflow:hidden;border:1px solid rgba(200,152,64,.14)}
+.whyus-img img{width:100%;height:100%;object-fit:cover;filter:sepia(.15)}
+.whyus-img::after{content:'';position:absolute;inset:0;background:linear-gradient(to right,transparent 60%,var(--wood-deep) 100%)}
+.why-list{display:flex;flex-direction:column;gap:1.4rem}
+.why-item{display:flex;gap:1.2rem;align-items:flex-start;padding:1.4rem;border:1px solid rgba(200,152,64,.1);border-radius:2px;background:rgba(0,0,0,.2);transition:border-color .3s}
+.why-item:hover{border-color:rgba(200,152,64,.25)}
+.why-num{font-family:'Cormorant Garamond',serif;font-size:2.2rem;color:rgba(200,152,64,.25);font-weight:300;line-height:1;flex-shrink:0;width:40px}
+.why-t{font-family:'Cormorant Garamond',serif;font-size:1.15rem;color:var(--cream);margin-bottom:.35rem}
+.why-d{font-size:.78rem;color:var(--muted);line-height:1.75}
+
+/* ── MARQUEE DIVIDER ── */
+.marquee-divider{padding:1.5rem 0;overflow:hidden;background:linear-gradient(90deg,var(--wood-deep),rgba(60,30,8,.8),var(--wood-deep));border-top:1px solid rgba(200,152,64,.15);border-bottom:1px solid rgba(200,152,64,.15)}
+.marquee-track{display:flex;white-space:nowrap;animation:marquee 22s linear infinite}
+.marquee-divider:hover .marquee-track{animation-play-state:paused}
+.marquee-item{display:inline-flex;align-items:center;gap:1.2rem;padding:0 2rem;font-family:'Cormorant Garamond',serif;font-style:italic;font-size:1.4rem;color:rgba(200,152,64,.65);font-weight:300}
+.marquee-item .sep{color:rgba(200,152,64,.3);font-style:normal;font-size:.7rem}
+@keyframes marquee{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+
+/* ── REVIEWS ── */
+#reviews{background:linear-gradient(180deg,var(--ink2),var(--ink))}
+.r-meta{display:flex;align-items:center;gap:2rem;margin-bottom:3.5rem;flex-wrap:wrap}
+.r-big{font-family:'Cormorant Garamond',serif;font-size:5rem;font-weight:300;color:var(--cream);line-height:1}
+.stars{display:flex;gap:3px}
+.star{color:var(--gold);font-size:.95rem}
+.star.d{opacity:.28}
+.r-count{font-size:.72rem;color:var(--muted);margin-top:.45rem}
+.r-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.2rem}
+.r-card{background:rgba(46,26,8,.15);border:1px solid rgba(200,152,64,.08);padding:1.8rem;border-radius:2px;transition:border-color .35s,transform .3s;position:relative;overflow:hidden}
+.r-card:hover{border-color:rgba(200,152,64,.2);transform:translateY(-3px)}
+.r-card::before{content:'\201C';position:absolute;top:.5rem;right:1rem;font-family:'Cormorant Garamond',serif;font-size:4rem;color:rgba(200,152,64,.08);line-height:1}
+.r-head{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:.9rem}
+.r-name{font-size:.9rem;font-weight:500;color:var(--cream)}
+.r-date{font-size:.65rem;color:var(--muted);margin-top:.1rem}
+.r-text{font-size:.79rem;color:rgba(212,195,155,.8);line-height:1.8;font-style:italic}
+.r-tag{display:inline-block;margin-top:1rem;background:rgba(200,152,64,.09);color:var(--gold);font-size:.55rem;letter-spacing:.15em;text-transform:uppercase;padding:.22rem .6rem;border-radius:1px}
+
+/* ── EXPERIENCE TIMELINE ── */
+#experience{background:var(--wood-deep);display:grid;grid-template-columns:1fr 1fr;gap:5rem;align-items:center;position:relative;overflow:hidden}
+#experience::before{content:'2014';position:absolute;right:3%;top:50%;transform:translateY(-50%);font-family:'Cormorant Garamond',serif;font-size:18rem;font-weight:600;color:rgba(200,152,64,.04);line-height:1;pointer-events:none}
+.exp-timeline{display:flex;flex-direction:column;gap:0}
+.exp-item{display:flex;gap:1.5rem;padding:1.6rem 0;border-bottom:1px solid rgba(200,152,64,.08);position:relative}
+.exp-item:last-child{border-bottom:none}
+.exp-year{font-family:'Cormorant Garamond',serif;font-size:1.4rem;color:var(--gold);font-weight:300;flex-shrink:0;width:70px;line-height:1.2}
+.exp-dot{position:absolute;left:70px;top:50%;transform:translateY(-50%);width:8px;height:8px;border-radius:50%;background:var(--gold);box-shadow:0 0 12px rgba(200,152,64,.5);flex-shrink:0}
+.exp-line{position:absolute;left:73.5px;top:0;bottom:0;width:1px;background:rgba(200,152,64,.12)}
+.exp-content{padding-left:1.5rem}
+.exp-title{font-family:'Cormorant Garamond',serif;font-size:1.1rem;color:var(--cream);margin-bottom:.3rem}
+.exp-desc{font-size:.76rem;color:var(--muted);line-height:1.7}
+
+/* ── VISIT ── */
+#visit{background:linear-gradient(135deg,var(--ink2) 0%,var(--deep) 100%);display:grid;grid-template-columns:1fr 1fr;gap:5rem;align-items:start;position:relative;overflow:hidden}
+#visit::after{content:'';position:absolute;bottom:-150px;right:-150px;width:500px;height:500px;border-radius:50%;background:radial-gradient(circle,rgba(200,152,64,.05),transparent 65%)}
+.info-row{display:flex;gap:1rem;align-items:flex-start;margin-bottom:1.8rem}
+.i-ico{width:38px;height:38px;border:1px solid rgba(200,152,64,.25);border-radius:50%;display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:2px;background:rgba(200,152,64,.05)}
+.i-ico svg{width:15px;height:15px;stroke:var(--gold);fill:none;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
+.i-lbl{font-size:.56rem;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);margin-bottom:.3rem;display:block}
+.i-val,.i-val a{font-size:.84rem;color:rgba(212,195,155,.85);text-decoration:none;line-height:1.7;transition:color .25s}
+.i-val a:hover{color:var(--gold)}
+.map-box{margin-top:2rem;border-radius:2px;overflow:hidden;border:1px solid rgba(200,152,64,.14);height:260px}
+.map-box iframe{width:100%;height:100%;border:none;filter:sepia(.55) contrast(.8) brightness(.75)}
+.f-group{margin-bottom:1.2rem}
+.f-label{display:block;font-size:.56rem;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);margin-bottom:.5rem}
+.f-input,.f-sel,.f-area{width:100%;background:rgba(255,255,255,.035);border:1px solid rgba(200,152,64,.15);color:var(--cream);padding:.85rem 1.1rem;border-radius:1px;font-family:'DM Sans',sans-serif;font-size:.83rem;transition:border-color .3s,background .3s;outline:none}
+.f-input:focus,.f-sel:focus,.f-area:focus{border-color:rgba(200,152,64,.55);background:rgba(200,152,64,.04)}
+.f-input::placeholder,.f-area::placeholder{color:rgba(122,96,80,.5)}
+.f-area{height:110px;resize:vertical}
+.f-sel option{background:var(--deep);color:var(--cream)}
+.f-row{display:grid;grid-template-columns:1fr 1fr;gap:1rem}
+#f-fb{display:none;margin-top:1rem;font-size:.79rem;text-align:center;padding:.7rem;border-radius:1px;border:1px solid rgba(200,152,64,.22);color:var(--gold);background:rgba(200,152,64,.05)}
+
+/* ── FOOTER ── */
+footer{background:var(--ink);border-top:1px solid rgba(200,152,64,.1);padding:4rem 5% 2rem}
+.ft-top{display:grid;grid-template-columns:2.2fr 1fr 1fr 1fr;gap:3rem;margin-bottom:3rem}
+.ft-brand p{font-size:.78rem;color:var(--muted);line-height:1.85;max-width:230px;margin-top:.8rem}
+.ft-tagline{display:block;margin-top:.8rem;font-family:'Cormorant Garamond',serif;font-style:italic;font-size:.95rem;color:rgba(200,152,64,.6)}
+.ft-col h4{font-size:.58rem;letter-spacing:.25em;text-transform:uppercase;color:var(--gold);margin-bottom:1.2rem}
+.ft-col ul{list-style:none;display:flex;flex-direction:column;gap:.6rem}
+.ft-col ul li a{font-size:.78rem;color:var(--muted);text-decoration:none;transition:color .25s}
+.ft-col ul li a:hover{color:var(--gold)}
+.ft-bottom{border-top:1px solid rgba(255,255,255,.04);padding-top:1.6rem;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:1rem}
+.ft-copy{font-size:.66rem;color:var(--muted)}
+.ft-socials{display:flex;gap:1.5rem}
+.ft-socials a{font-size:.6rem;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);text-decoration:none;transition:color .25s}
+.ft-socials a:hover{color:var(--gold)}
+
+/* ── WhatsApp FAB ── */
+#wa{position:fixed;bottom:1.8rem;right:1.8rem;z-index:300;width:56px;height:56px;border-radius:50%;background:#25D366;display:flex;align-items:center;justify-content:center;box-shadow:0 4px 24px rgba(37,211,102,.4);text-decoration:none;transition:transform .3s,box-shadow .3s}
+#wa:hover{transform:scale(1.1);box-shadow:0 6px 30px rgba(37,211,102,.55)}
+#wa svg{width:26px;height:26px;fill:white}
+#wa .wa-pulse{position:absolute;inset:-6px;border-radius:50%;border:2px solid rgba(37,211,102,.35);animation:wa-ring 2s ease-out infinite}
+@keyframes wa-ring{0%{transform:scale(.85);opacity:1}100%{transform:scale(1.2);opacity:0}}
+
+/* ── Scroll reveal ── */
+.r{opacity:0;transform:translateY(30px);transition:opacity .8s ease,transform .8s ease}
+.r.v{opacity:1;transform:none}
+.r.r-left{transform:translateX(-30px)}
+.r.r-right{transform:translateX(30px)}
+.r.v.r-left,.r.v.r-right{transform:none}
+
+/* ── Responsive ── */
+@media(max-width:1100px){
+  .designers-grid{grid-template-columns:1fr 1fr}
+  .r-grid{grid-template-columns:1fr 1fr}
+  .stats-grid{grid-template-columns:repeat(2,1fr)}
+  .gallery-grid{grid-template-columns:1fr 1fr;grid-template-rows:250px 250px 250px}
+  .g-cell:first-child{grid-row:span 1}
+}
+@media(max-width:960px){
+  #hero{grid-template-columns:1fr;padding-top:120px}
+  .hero-img-panel{height:340px}
+  #story,#visit,#experience,#whyus{grid-template-columns:1fr;gap:3rem}
+  .story-img{height:340px}
+  .story-img-wrap::after{display:none}
+  .ft-top{grid-template-columns:1fr 1fr}
+  .nav-center,.nav-right .btn-outline{display:none}
+  .ham{display:flex}
+  .srv-grid{grid-template-columns:1fr}
+  #experience::before{display:none}
+  .whyus-img{height:320px}
+}
+@media(max-width:680px){
+  section{padding:70px 5%}
+  h1.hero-h{font-size:clamp(2.8rem,9vw,4.2rem)}
+  .hero-stats{gap:2rem}
+  .r-grid{grid-template-columns:1fr}
+  .stats-grid{grid-template-columns:1fr 1fr}
+  .f-row{grid-template-columns:1fr}
+  .ft-top{grid-template-columns:1fr}
+  .designers-grid{grid-template-columns:1fr}
+  .gallery-grid{grid-template-columns:1fr;grid-template-rows:auto}
+  .g-cell{height:220px}
+  .g-cell:first-child{grid-row:span 1}
+}
+</style>
+</head>
+<body>
+
+
+
+<!-- Mobile menu -->
+<div id="mob">
+  <a href="#cats" onclick="cMob()">Collection</a>
+  <hr>
+  <a href="#story" onclick="cMob()">Our Story</a>
+  <a href="#designers" onclick="cMob()">Our Team</a>
+  <a href="#services" onclick="cMob()">Services</a>
+  <a href="#reviews" onclick="cMob()">Reviews</a>
+  <a href="#visit" onclick="cMob()">Visit Us</a>
+  <hr>
+  <a href="https://wa.me/923159944484" target="_blank" style="color:var(--gold)" onclick="cMob()">WhatsApp Us</a>
+</div>
+
+<!-- Notice bar -->
+<div id="notice">⚡ Prices may change — confirm current pricing via WhatsApp &nbsp;·&nbsp; <a href="https://wa.me/923159944484">Chat Now</a></div>
+
+<!-- NAV -->
+<nav id="nav" style="top:36px">
+  <a class="logo-mono" href="#hero">
+    <div class="fpl-mark">
+      <div class="fpl-glow"></div>
+      <span class="fpl-letters">FPL</span>
+    </div>
+    <div>
+      <div class="logo-text">Creative<span>Inter</span></div>
+      <div class="logo-sub">Furnitures · Est. 2014</div>
+    </div>
+  </a>
+  <ul class="nav-center">
+    <li><a href="#cats">Collection</a></li>
+    <li><a href="#story">Story</a></li>
+    <li><a href="#designers">Team</a></li>
+    <li><a href="#services">Services</a></li>
+    <li><a href="#reviews">Reviews</a></li>
+    <li><a href="#visit">Visit</a></li>
+  </ul>
+  <div class="nav-right">
+    <a href="https://wa.me/923159944484" target="_blank" class="btn-sm btn-wa">
+      <svg width="13" height="13" viewBox="0 0 16 16" fill="white"><path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326z"/></svg>
+      WhatsApp
+    </a>
+    <a href="#visit" class="btn-sm btn-outline">Get Quote</a>
+    <button class="ham" id="ham" onclick="tMob()"><span></span><span></span><span></span></button>
+  </div>
+</nav>
+
+<main>
+
+<!-- ════ HERO ════ -->
+<section id="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-diag"></div>
+  <div class="hero-glow"></div>
+  <div class="hero-text">
+    <div class="hero-badge fi-1">Est. 2014 &nbsp;·&nbsp; Soan Gardens, Islamabad</div>
+    <h1 class="hero-h fi-2">
+      <strong>Manufacturer.</strong>
+      Wholesaler.<br><em>Importer.</em>
+    </h1>
+    <p class="hero-p fi-3">Premium home &amp; office furniture crafted to last a lifetime. Direct from our workshop — no middlemen, unbeatable prices, uncompromising quality.</p>
+    <div class="hero-ctas fi-4">
+      <a href="https://wa.me/923159944484?text=Hello%20CreativeInter!%20I%27d%20like%20to%20inquire%20about%20furniture." target="_blank" class="btn-sm btn-gold btn-lg">
+        <svg width="14" height="14" viewBox="0 0 16 16" fill="currentColor"><path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326z"/></svg>
+        WhatsApp Us
+      </a>
+      <a href="#cats" class="btn-sm btn-outline btn-lg">Browse Collection</a>
+    </div>
+    <div class="hero-stats fi-5">
+      <div class="stat"><div class="n">10<em>+</em></div><div class="l">Years of craft</div></div>
+      <div class="stat"><div class="n">390<em>+</em></div><div class="l">Google reviews</div></div>
+      <div class="stat"><div class="n">4.1<em>★</em></div><div class="l">Avg rating</div></div>
+      <div class="stat"><div class="n">98<em>+</em></div><div class="l">Products listed</div></div>
+    </div>
+  </div>
+  <div class="hero-img-panel fi-6">
+    <img src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=800&q=80&auto=format&fit=crop" alt="Premium luxury sofa in showroom">
+    <div class="hero-img-overlay"></div>
+    <div class="hero-img-corner">10+<span>Years</span></div>
+    <div class="hero-img-tag">Premium Craftsmanship · Soan Gardens</div>
+  </div>
+  <div class="scroll-hint">Scroll</div>
+</section>
+
+<!-- TICKER -->
+<div class="ticker-wrap">
+  <div class="ticker-inner" id="ticker"></div>
+</div>
+
+<div class="wd"></div>
+
+<!-- ════ BRAND STORY ════ -->
+<section id="story">
+  <div class="story-img-wrap r r-left">
+    <div class="story-img">
+      <img src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?w=800&q=80&auto=format&fit=crop" alt="Furniture craftsmanship workshop" loading="lazy">
+      <div class="story-overlay"></div>
+      <div class="story-float"><div class="fn">10+</div><div class="fl">Years of mastery</div></div>
+    </div>
+  </div>
+  <div class="story-copy r r-right">
+    <span class="s-label">Our Heritage</span>
+    <h2 class="s-title" style="margin-bottom:1.5rem">Built with <em>Purpose.</em><br>Crafted with Soul.</h2>
+    <p>CreativeInter Furnitures SMC Private Limited has been Islamabad's most trusted furniture name since 2014. From our Soan Gardens showroom we design, manufacture, wholesale and import — cutting out the middleman so you always receive superior quality at honest pricing.</p>
+    <p>Every piece begins as a conversation about how you live and work. Our craftsmen translate those conversations into solid-wood structures, precision joinery and hand-selected upholstery that quietly elevate every room.</p>
+    <p>Whether you're furnishing a single bedroom or a complete corporate campus, we scale with your vision — and stand behind every joint, seam and surface we deliver.</p>
+    <ul class="feat-list">
+      <li>Manufacturer · Wholesaler · Importer — all under one roof</li>
+      <li>Home furniture: beds, sofas, dining, wardrobes, dressing tables</li>
+      <li>Complete office solutions: desks, chairs, workstations, reception counters</li>
+      <li>Custom dimensions and finishes on every single order</li>
+      <li>Delivery across Islamabad &amp; Rawalpindi</li>
+      <li>390+ verified Google reviews · 4.1 ★ average rating</li>
+    </ul>
+  </div>
+</section>
+
+<div class="wd"></div>
+
+<!-- ════ PHILOSOPHY ════ -->
+<section id="philosophy">
+  <div class="r">
+    <span class="s-label" style="display:block;text-align:center;margin-bottom:1.5rem">Our Philosophy</span>
+    <p class="phil-quote">"Fine furniture is not bought — it is chosen. It endures not because it is expensive, but because it was made with intention, and lives in a home where it is truly understood."</p>
+    <div class="phil-attr">CreativeInter Furnitures &nbsp;·&nbsp; Soan Gardens, Islamabad</div>
+  </div>
+</section>
+
+<div class="wd"></div>
+
+<!-- ════ STATS ════ -->
+<section id="stats">
+  <div class="stats-grid">
+    <div class="stat-block r"><span class="stat-big">390<em>+</em></span><span class="stat-label">Google Reviews</span><span class="stat-sub">Verified customer feedback</span></div>
+    <div class="stat-block r"><span class="stat-big">4.1<em>★</em></span><span class="stat-label">Average Rating</span><span class="stat-sub">Across all categories</span></div>
+    <div class="stat-block r"><span class="stat-big">10<em>+</em></span><span class="stat-label">Years Experience</span><span class="stat-sub">Islamabad's trusted name</span></div>
+    <div class="stat-block r"><span class="stat-big">98<em>+</em></span><span class="stat-label">Products in Catalogue</span><span class="stat-sub">Home &amp; office solutions</span></div>
+  </div>
+</section>
+
+<div class="wd"></div>
+
+<!-- ════ COLLECTION ════ -->
+<section id="cats">
+  <div class="s-head r">
+    <div>
+      <span class="s-label">Full Catalogue</span>
+      <h2 class="s-title">Our <em>Collection</em></h2>
+    </div>
+    <a href="https://wa.me/923159944484?text=Hello!%20Please%20share%20your%20full%20catalogue%20with%20prices." target="_blank" class="btn-sm btn-gold">Request Full Catalogue</a>
+  </div>
+  <div class="cat-tabs r" id="tab-bar">
+    <button class="cat-tab active" data-cat="all">All Products</button>
+    <button class="cat-tab" data-cat="home">Home Furniture</button>
+    <button class="cat-tab" data-cat="bed">Bed Collection</button>
+    <button class="cat-tab" data-cat="office">Office Furniture</button>
+    <button class="cat-tab" data-cat="sofa">Sofa Sets</button>
+    <button class="cat-tab" data-cat="dining">Dining &amp; Tables</button>
+  </div>
+  <div class="products-grid" id="pgrid"></div>
+</section>
+
+<div class="wd"></div>
+
+<!-- ════ SHOWROOM GALLERY ════ -->
+<section id="gallery">
+  <div class="s-head r">
+    <div>
+      <span class="s-label">Inside Our Showroom</span>
+      <h2 class="s-title">The <em>Showroom</em> Experience</h2>
+    </div>
+    <a href="https://maps.google.com/?q=Street+11,Soan+Gardens+Block+B,Islamabad" target="_blank" class="btn-sm btn-outline">Get Directions</a>
+  </div>
+  <div class="gallery-grid r">
+    <div class="g-cell"><img src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=800&q=80&auto=format&fit=crop" alt="Luxury sofa showroom" loading="lazy"><div class="g-label">Sofa Collection</div></div>
+    <div class="g-cell"><img src="https://images.unsplash.com/photo-1616594039964-ae9021a400a0?w=800&q=80&auto=format&fit=crop" alt="Modern bedroom furniture" loading="lazy"><div class="g-label">Bedroom Sets</div></div>
+    <div class="g-cell"><img src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?w=800&q=80&auto=format&fit=crop" alt="Elegant dining room" loading="lazy"><div class="g-label">Dining Room</div></div>
+    <div class="g-cell"><img src="https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?w=800&q=80&auto=format&fit=crop" alt="Professional office furniture" loading="lazy"><div class="g-label">Office Solutions</div></div>
+    <div class="g-cell"><img src="https://images.unsplash.com/photo-1611269154421-4e27233ac5c5?w=800&q=80&auto=format&fit=crop" alt="Modern wardrobe" loading="lazy"><div class="g-label">Wardrobes</div></div>
+  </div>
+</section>
+
+<div class="wd"></div>
+
+<!-- ════ DESIGNERS ════ -->
+<section id="designers">
+  <div class="s-head r">
+    <div>
+      <span class="s-label">The People Behind the Craft</span>
+      <h2 class="s-title">Our <em>Design Team</em></h2>
+    </div>
+  </div>
+  <div class="designers-grid">
+    <div class="d-card r">
+      <div class="d-avatar">AK</div>
+      <div class="d-name">Adnan Khan</div>
+      <div class="d-role">Lead Designer &amp; Founder</div>
+      <p class="d-spec">Over a decade shaping CreativeInter's signature aesthetic — where classic Pakistani craftsmanship meets contemporary form. Adnan oversees every bespoke commission personally.</p>
+      <span class="d-exp">12 Years Experience</span>
+    </div>
+    <div class="d-card r">
+      <div class="d-avatar">SR</div>
+      <div class="d-name">Sara Raza</div>
+      <div class="d-role">Interior &amp; Space Planner</div>
+      <p class="d-spec">Specialises in full-room and office layout consultations. Sara helps clients visualise furniture placement before a single piece is manufactured — reducing revisions and maximising satisfaction.</p>
+      <span class="d-exp">8 Years Experience</span>
+    </div>
+    <div class="d-card r">
+      <div class="d-avatar">ZM</div>
+      <div class="d-name">Zain Malik</div>
+      <div class="d-role">Master Craftsman &amp; Workshop Head</div>
+      <p class="d-spec">Zain leads a team of 20+ artisans on the workshop floor. His exacting standards for wood selection, joinery and finish are the reason CreativeInter furniture outlasts its warranties.</p>
+      <span class="d-exp">15 Years Experience</span>
+    </div>
+  </div>
+</section>
+
+<div class="wd"></div>
+
+<!-- ════ SERVICES ════ -->
+<section id="services">
+  <div class="s-head r">
+    <div>
+      <span class="s-label">What We Offer</span>
+      <h2 class="s-title">Experience &amp; <em>Services</em></h2>
+    </div>
+  </div>
+  <div class="srv-grid">
+    <div class="srv-item r">
+      <div class="srv-icon"><svg viewBox="0 0 24 24"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></div>
+      <div><div class="srv-title">Home Furniture Manufacturing</div><p class="srv-desc">We manufacture beds, sofas, dining sets, wardrobes, dressing tables, shoe racks, LED racks and entrance consoles entirely in-house — guaranteeing quality control at every stage.</p></div>
+    </div>
+    <div class="srv-item r">
+      <div class="srv-icon"><svg viewBox="0 0 24 24"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg></div>
+      <div><div class="srv-title">Complete Office Solutions</div><p class="srv-desc">From single executive desks to full-floor workstation layouts, reception counters, meeting tables and ergonomic seating — we handle corporate projects of any scale.</p></div>
+    </div>
+    <div class="srv-item r">
+      <div class="srv-icon"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg></div>
+      <div><div class="srv-title">Import &amp; Wholesale</div><p class="srv-desc">We import premium furniture components and finished pieces from trusted international sources, making high-quality designs accessible at wholesale prices for bulk buyers and retailers.</p></div>
+    </div>
+    <div class="srv-item r">
+      <div class="srv-icon"><svg viewBox="0 0 24 24"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"/></svg></div>
+      <div><div class="srv-title">Bespoke Customisation</div><p class="srv-desc">Every dimension, finish, wood species, fabric and colour can be tailored to your exact requirements. Our designers work with you from concept sketch to final delivery.</p></div>
+    </div>
+    <div class="srv-item r">
+      <div class="srv-icon"><svg viewBox="0 0 24 24"><path d="M1 3h15v13H1z"/><path d="M16 8h4l3 3v5h-7V8z"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg></div>
+      <div><div class="srv-title">Delivery Across Islamabad &amp; Rawalpindi</div><p class="srv-desc">Our own delivery team handles careful transport and placement of all furniture. We cover all sectors of Islamabad and Rawalpindi — coordinating timing to suit your schedule.</p></div>
+    </div>
+    <div class="srv-item r">
+      <div class="srv-icon"><svg viewBox="0 0 24 24"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 0 2 2z"/></svg></div>
+      <div><div class="srv-title">Free Consultation &amp; Quote</div><p class="srv-desc">Walk into our Soan Gardens showroom or reach us on WhatsApp — our team will assess your space, understand your vision and provide a no-obligation quote within 24 hours.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- MARQUEE -->
+<div class="marquee-divider">
+  <div class="marquee-track" id="mtrack"></div>
+</div>
+
+<!-- ════ WHY US ════ -->
+<section id="whyus">
+  <div class="whyus-img r r-left">
+    <img src="https://images.unsplash.com/photo-1631679706909-1844bbd07221?w=800&q=80&auto=format&fit=crop" alt="Expert craftsman at work" loading="lazy">
+  </div>
+  <div class="r r-right">
+    <span class="s-label">Why Choose Us</span>
+    <h2 class="s-title" style="margin-bottom:2rem">The CreativeInter <em>Difference</em></h2>
+    <div class="why-list">
+      <div class="why-item">
+        <div class="why-num">01</div>
+        <div><div class="why-t">No Middlemen. Ever.</div><p class="why-d">As both manufacturer and retailer, we eliminate distributor markups. What you pay reflects the cost of craft — not a supply chain.</p></div>
+      </div>
+      <div class="why-item">
+        <div class="why-num">02</div>
+        <div><div class="why-t">Solid Wood, Always</div><p class="why-d">We use sheesham, teak and premium hardwood — not MDF or particle board. Every joint is built to last decades, not seasons.</p></div>
+      </div>
+      <div class="why-item">
+        <div class="why-num">03</div>
+        <div><div class="why-t">Fully Customisable</div><p class="why-d">Size, wood, finish, fabric, colour — all negotiable. If you can describe it, our team can build it. No standard-size constraints.</p></div>
+      </div>
+      <div class="why-item">
+        <div class="why-num">04</div>
+        <div><div class="why-t">Trusted Since 2014</div><p class="why-d">Over a decade serving Islamabad families and businesses. 390+ verified Google reviews back every promise we make.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="wd"></div>
+
+<!-- ════ REVIEWS ════ -->
+<section id="reviews">
+  <div class="r">
+    <span class="s-label">Patron Reviews</span>
+    <h2 class="s-title" style="margin-bottom:2rem">What Clients <em>Say</em></h2>
+  </div>
+  <div class="r-meta r">
+    <div class="r-big">4.1</div>
+    <div>
+      <div class="stars"><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star d">★</span></div>
+      <div class="r-count">Based on 390+ verified reviews on Google Maps</div>
+      <div style="margin-top:.5rem"><a href="https://maps.google.com/?q=CreativeInter+Furnitures+Soan+Gardens+Islamabad" target="_blank" style="font-size:.62rem;letter-spacing:.16em;text-transform:uppercase;color:var(--gold);text-decoration:none;border-bottom:1px solid rgba(200,152,64,.3);padding-bottom:2px">View all on Google →</a></div>
+    </div>
+  </div>
+  <div class="r-grid">
+    <div class="r-card r">
+      <div class="r-head"><div><div class="r-name">Tariq Ahmed</div><div class="r-date">5 months ago · 2 reviews · 1 photo</div></div><div class="stars"><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span></div></div>
+      <p class="r-text">"Excellent Purchase — Highly Recommend! I recently bought a study table and chair. The quality is really impressive — solid wood, great finish, exactly as shown in the showroom. Very satisfied."</p>
+      <span class="r-tag">study table · chair</span>
+    </div>
+    <div class="r-card r">
+      <div class="r-head"><div><div class="r-name">Qasim Khan</div><div class="r-date">4 months ago · 1 review · 1 photo</div></div><div class="stars"><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span></div></div>
+      <p class="r-text">"Ordered furniture with customisation. They showed ready items and accommodated all my adjustments. High workload means some lead time, but the end result was genuinely excellent."</p>
+      <span class="r-tag">custom order</span>
+    </div>
+    <div class="r-card r">
+      <div class="r-head"><div><div class="r-name">Muhammad Abubakr</div><div class="r-date">4 months ago · 5 reviews · 6 photos</div></div><div class="stars"><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star d">★</span></div></div>
+      <p class="r-text">"Ordered a study table (₨30,000) and chair (₨10,000). Delivery was 3 days late after 22 days promised, which was frustrating. The quality itself is good — solid build, nice finish."</p>
+      <span class="r-tag">study table · delivery</span>
+    </div>
+    <div class="r-card r">
+      <div class="r-head"><div><div class="r-name">Fatima Nawaz</div><div class="r-date">6 months ago · 3 reviews</div></div><div class="stars"><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span></div></div>
+      <p class="r-text">"I furnished my entire living room from CreativeInter — sofa, center table, TV cabinet and dressing table. The workmanship is outstanding and prices are much better than other showrooms."</p>
+      <span class="r-tag">sofa · living room set</span>
+    </div>
+    <div class="r-card r">
+      <div class="r-head"><div><div class="r-name">Hassan Iqbal</div><div class="r-date">3 months ago · 1 review</div></div><div class="stars"><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star d">★</span></div></div>
+      <p class="r-text">"Good quality office workstations at competitive rates. Had a minor issue with one partition panel but the team resolved it promptly. Would recommend for corporate purchases."</p>
+      <span class="r-tag">office · workstations</span>
+    </div>
+    <div class="r-card r">
+      <div class="r-head"><div><div class="r-name">Zara Sheikh</div><div class="r-date">7 months ago · 8 reviews · 4 photos</div></div><div class="stars"><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span></div></div>
+      <p class="r-text">"Absolute gem of a showroom in Soan Gardens. The staff are patient, knowledgeable and zero pressure. My king bed and wardrobe look even better in my room than in the showroom!"</p>
+      <span class="r-tag">bed · wardrobe</span>
+    </div>
+  </div>
+</section>
+
+<div class="wd"></div>
+
+<!-- ════ TIMELINE ════ -->
+<section id="experience">
+  <div class="r r-left">
+    <span class="s-label">Our Journey</span>
+    <h2 class="s-title" style="margin-bottom:2.5rem">A Decade of <em>Excellence</em></h2>
+    <div class="exp-timeline">
+      <div class="exp-item"><div class="exp-year">2014</div><div class="exp-line"></div><div class="exp-dot"></div><div class="exp-content"><div class="exp-title">Founded in Soan Gardens</div><p class="exp-desc">CreativeInter Furnitures SMC Pvt Ltd opens its first showroom on Street 11, Soan Gardens Block B, Islamabad.</p></div></div>
+      <div class="exp-item"><div class="exp-year">2016</div><div class="exp-line"></div><div class="exp-dot"></div><div class="exp-content"><div class="exp-title">Workshop Expansion</div><p class="exp-desc">Manufacturing facility doubled in capacity to accommodate growing demand for bespoke home furniture orders.</p></div></div>
+      <div class="exp-item"><div class="exp-year">2018</div><div class="exp-line"></div><div class="exp-dot"></div><div class="exp-content"><div class="exp-title">Office Furniture Division Launched</div><p class="exp-desc">Dedicated team and workshop space established for corporate clients — workstations, reception and executive furniture.</p></div></div>
+      <div class="exp-item"><div class="exp-year">2021</div><div class="exp-line"></div><div class="exp-dot"></div><div class="exp-content"><div class="exp-title">Import &amp; Wholesale Operations</div><p class="exp-desc">Formalised import partnerships to bring international designs and hardware directly to Pakistani consumers at wholesale pricing.</p></div></div>
+      <div class="exp-item"><div class="exp-year">2024</div><div class="exp-line"></div><div class="exp-dot"></div><div class="exp-content"><div class="exp-title">390+ Google Reviews &amp; Counting</div><p class="exp-desc">A decade of trust reflected in hundreds of verified reviews — Islamabad's most-reviewed independent furniture store.</p></div></div>
+    </div>
+  </div>
+  <div class="r r-right" style="position:relative">
+    <div style="height:100%;min-height:400px;border-radius:2px;overflow:hidden;border:1px solid rgba(200,152,64,.14)">
+      <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&q=80&auto=format&fit=crop" alt="CreativeInter showroom interior" loading="lazy" style="width:100%;height:100%;object-fit:cover;min-height:400px;filter:sepia(.1) contrast(1.04)">
+      <div style="position:absolute;inset:0;background:linear-gradient(to top,rgba(8,6,10,.7) 0%,transparent 50%)"></div>
+      <div style="position:absolute;bottom:2rem;left:2rem">
+        <div style="font-family:'Cormorant Garamond',serif;font-style:italic;font-size:1.3rem;color:var(--cream2);margin-bottom:.5rem">"Where craft meets character."</div>
+        <div style="font-size:.58rem;letter-spacing:.22em;text-transform:uppercase;color:var(--gold)">CreativeInter · Est. 2014</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="wd"></div>
+
+<!-- ════ VISIT & CONTACT ════ -->
+<section id="visit">
+  <div class="r r-left">
+    <span class="s-label">Come See Us</span>
+    <h2 class="s-title" style="margin-bottom:2.2rem">Visit Our <em>Showroom</em></h2>
+    <div class="info-row">
+      <div class="i-ico"><svg viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5z"/></svg></div>
+      <div><span class="i-lbl">Showroom Address</span><div class="i-val"><a href="https://maps.google.com/?q=Street+11,Soan+Gardens+Block+B,Islamabad" target="_blank">Street 11, Soan Gardens Block B<br>Islamabad, Pakistan · H582+82</a></div></div>
+    </div>
+    <div class="info-row">
+      <div class="i-ico"><svg viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.91 8.59a16 16 0 0 0 6 6l.96-.96a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 21.9 16a2 2 0 0 1 .1.92z"/></svg></div>
+      <div><span class="i-lbl">WhatsApp &amp; Phone</span><div class="i-val"><a href="https://wa.me/923159944484">+92 315 9944484</a><br><a href="tel:+923335659029">+92 333 5659029</a></div></div>
+    </div>
+    <div class="info-row">
+      <div class="i-ico"><svg viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="16" rx="2"/><polyline points="22,6 12,13 2,6"/></svg></div>
+      <div><span class="i-lbl">Email</span><div class="i-val"><a href="mailto:creativeinterpakistan@gmail.com">creativeinterpakistan@gmail.com</a></div></div>
+    </div>
+    <div class="info-row">
+      <div class="i-ico"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></div>
+      <div><span class="i-lbl">Opening Hours</span><div class="i-val">Open Daily · Closes 8:30 PM</div></div>
+    </div>
+    <div class="info-row">
+      <div class="i-ico"><svg viewBox="0 0 24 24"><path d="M18 20V10"/><path d="M12 20V4"/><path d="M6 20v-6"/></svg></div>
+      <div><span class="i-lbl">Social Media</span><div class="i-val"><a href="https://www.facebook.com/creativeinterpk/" target="_blank">Facebook: @creativeinterpk</a><br><a href="https://www.instagram.com/creativeinterfurniture/" target="_blank">Instagram: @creativeinterfurniture</a></div></div>
+    </div>
+    <a href="https://maps.google.com/?q=Street+11,Soan+Gardens+Block+B,Islamabad" target="_blank" class="btn-sm btn-gold" style="margin-top:.8rem">
+      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5z"/></svg>
+      Open in Google Maps
+    </a>
+    <div class="map-box">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3320.5!2d73.0855!3d33.662!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38dfbf7a34ef3e55%3A0x0!2sSoan+Gardens+Block+B%2C+Islamabad!5e0!3m2!1sen!2spk!4v1" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="CreativeInter Showroom Location"></iframe>
+    </div>
+  </div>
+  <!-- Quote Form -->
+  <div class="r r-right">
+    <span class="s-label">Quick Inquiry</span>
+    <h2 class="s-title" style="margin-bottom:1.6rem">Request a <em>Quote</em></h2>
+    <div class="f-row">
+      <div class="f-group"><label class="f-label" for="fn">Full Name</label><input class="f-input" id="fn" type="text" placeholder="Ahmed Raza"></div>
+      <div class="f-group"><label class="f-label" for="fp">WhatsApp Number</label><input class="f-input" id="fp" type="tel" placeholder="+92 3XX XXXXXXX"></div>
+    </div>
+    <div class="f-group"><label class="f-label" for="fc">Furniture Category</label>
+      <select class="f-sel" id="fc">
+        <option value="">Select category...</option>
+        <option>Sofa Sets</option>
+        <option>Bed Collection – Modern Beds</option>
+        <option>Bed Collection – Regular Beds</option>
+        <option>Dining Tables</option>
+        <option>Dressing Tables</option>
+        <option>Center Tables</option>
+        <option>Wardrobes</option>
+        <option>Shoe Racks</option>
+        <option>LED Racks / Book Racks</option>
+        <option>Office Tables</option>
+        <option>Office Chairs</option>
+        <option>Workstations</option>
+        <option>Meeting Tables</option>
+        <option>Reception Furniture</option>
+        <option>Study / Computer Tables</option>
+        <option>Entrance Consoles</option>
+        <option>Custom / Other</option>
+      </select>
+    </div>
+    <div class="f-group"><label class="f-label" for="fb2">Budget Range (PKR)</label>
+      <select class="f-sel" id="fb2">
+        <option value="">Select range...</option>
+        <option>Under ₨ 20,000</option>
+        <option>₨ 20,000 – 50,000</option>
+        <option>₨ 50,000 – 100,000</option>
+        <option>₨ 100,000 – 300,000</option>
+        <option>₨ 300,000+</option>
+      </select>
+    </div>
+    <div class="f-group"><label class="f-label" for="fm">Requirements &amp; Details</label>
+      <textarea class="f-area" id="fm" placeholder="Dimensions, finish, wood type, quantity, delivery address, special requirements..."></textarea>
+    </div>
+    <button type="button" class="btn-sm btn-gold btn-lg" style="width:100%;justify-content:center" onclick="sendForm()">
+      <svg width="14" height="14" viewBox="0 0 16 16" fill="currentColor"><path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326z"/></svg>
+      Send via WhatsApp
+    </button>
+    <div id="f-fb"></div>
+  </div>
+</section>
+
+</main>
+
+<!-- FOOTER -->
+<footer>
+  <div class="ft-top">
+    <div class="ft-brand">
+      <a class="logo-mono" href="#hero" style="display:inline-flex">
+        <div class="fpl-mark" style="width:36px;height:36px">
+          <div class="fpl-glow"></div>
+          <span class="fpl-letters" style="font-size:.95rem">FPL</span>
+        </div>
+        <div>
+          <div class="logo-text" style="font-size:1.1rem">Creative<span>Inter</span></div>
+          <div class="logo-sub">Furnitures · Est. 2014</div>
+        </div>
+      </a>
+      <p>Manufacturer · Wholesaler · Importer of premium home and office furniture. Islamabad's most trusted name since 2014. Built in Soan Gardens, delivered across Pakistan.</p>
+      <span class="ft-tagline">Where craft meets character.</span>
+    </div>
+    <div class="ft-col">
+      <h4>Home Collections</h4>
+      <ul>
+        <li><a href="#cats" onclick="filterCat('bed')">Bed Collection</a></li>
+        <li><a href="#cats" onclick="filterCat('sofa')">Sofa Sets</a></li>
+        <li><a href="#cats" onclick="filterCat('dining')">Dining Tables</a></li>
+        <li><a href="#cats" onclick="filterCat('home')">Dressing Tables</a></li>
+        <li><a href="#cats" onclick="filterCat('home')">Wardrobes</a></li>
+        <li><a href="#cats" onclick="filterCat('home')">LED &amp; Book Racks</a></li>
+      </ul>
+    </div>
+    <div class="ft-col">
+      <h4>Office Furniture</h4>
+      <ul>
+        <li><a href="#cats" onclick="filterCat('office')">Executive Desks</a></li>
+        <li><a href="#cats" onclick="filterCat('office')">Office Chairs</a></li>
+        <li><a href="#cats" onclick="filterCat('office')">Workstations</a></li>
+        <li><a href="#cats" onclick="filterCat('office')">Meeting Tables</a></li>
+        <li><a href="#cats" onclick="filterCat('office')">Reception Desks</a></li>
+        <li><a href="#cats" onclick="filterCat('office')">Study Tables</a></li>
+      </ul>
+    </div>
+    <div class="ft-col">
+      <h4>Contact</h4>
+      <ul>
+        <li><a href="https://wa.me/923159944484" target="_blank">WhatsApp: +92 315 9944484</a></li>
+        <li><a href="tel:+923335659029">Phone: +92 333 5659029</a></li>
+        <li><a href="mailto:creativeinterpakistan@gmail.com">Email Us</a></li>
+        <li><a href="https://www.facebook.com/creativeinterpk/" target="_blank">Facebook</a></li>
+        <li><a href="https://www.instagram.com/creativeinterfurniture/" target="_blank">Instagram</a></li>
+        <li><a href="https://maps.google.com/?q=Street+11,Soan+Gardens+Block+B,Islamabad" target="_blank">Find on Maps</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="ft-bottom">
+    <p class="ft-copy">© 2025 CreativeInter Furnitures SMC Pvt Ltd · Street 11, Soan Gardens Block B, Islamabad</p>
+    <div class="ft-socials">
+      <a href="https://www.facebook.com/creativeinterpk/" target="_blank">Facebook</a>
+      <a href="https://www.instagram.com/creativeinterfurniture/" target="_blank">Instagram</a>
+      <a href="https://wa.me/923159944484" target="_blank">WhatsApp</a>
+      <a href="https://maps.google.com/?q=CreativeInter+Furnitures+Soan+Gardens+Islamabad" target="_blank">Google</a>
+    </div>
+  </div>
+</footer>
+
+<!-- WhatsApp FAB -->
+<a id="wa" href="https://wa.me/923159944484" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+  <div class="wa-pulse"></div>
+  <svg viewBox="0 0 16 16"><path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326z"/></svg>
+</a>
+
+<script>
+'use strict';
+
+
+
+/* ── Nav scroll ── */
+const nav=document.getElementById('nav');
+const noticeH=document.getElementById('notice').offsetHeight;
+window.addEventListener('scroll',()=>{
+  if(window.scrollY>80){nav.classList.add('scrolled');nav.style.top='0'}
+  else{nav.classList.remove('scrolled');nav.style.top=noticeH+'px'}
+},{passive:true});
+
+/* ── Mobile menu ── */
+function tMob(){document.getElementById('mob').classList.toggle('open');document.getElementById('ham').classList.toggle('open')}
+function cMob(){document.getElementById('mob').classList.remove('open');document.getElementById('ham').classList.remove('open')}
+
+/* ── Ticker ── */
+const tickerItems=['Manufacturer','Wholesaler','Importer','Soan Gardens','Islamabad','Home Furniture','Office Furniture','Beds · Sofas · Dining','Custom Orders Welcome','WhatsApp +92 315 9944484','Open Daily · Closes 8:30 PM','Free Consultation','Est. 2014','390+ Google Reviews','4.1 ★ Rating'];
+const tickerEl=document.getElementById('ticker');
+const allItems=[...tickerItems,...tickerItems];
+tickerEl.innerHTML=allItems.map(t=>`<span class="ticker-item">${t}<span class="dot"></span></span>`).join('');
+
+/* ── Marquee ── */
+const mItems=['Manufactured in Islamabad','Crafted with Precision','Delivered with Care','Solid Wood Always','Custom to Your Vision','Est. 2014','Manufactured in Islamabad','Crafted with Precision','Delivered with Care','Solid Wood Always','Custom to Your Vision','Est. 2014'];
+document.getElementById('mtrack').innerHTML=mItems.map(t=>`<span class="marquee-item">${t}<span class="sep">✦</span></span>`).join('');
+
+/* ── Form ── */
+function sendForm(){
+  const n=document.getElementById('fn').value.trim();
+  const p=document.getElementById('fp').value.trim();
+  const cat=document.getElementById('fc').value;
+  const bud=document.getElementById('fb2').value;
+  const msg=document.getElementById('fm').value.trim();
+  const fb=document.getElementById('f-fb');
+  if(!n||!p){fb.style.display='block';fb.style.color='#e05';fb.style.borderColor='rgba(220,80,80,.25)';fb.textContent='⚠ Please fill in your name and WhatsApp number.';return}
+  const t=encodeURIComponent(`Hello CreativeInter!\n\nName: ${n}\nPhone: ${p}\nCategory: ${cat||'General'}\nBudget: ${bud||'Not specified'}\n\nRequirements:\n${msg||'Please share your catalogue and pricing.'}`);
+  window.open(`https://wa.me/923159944484?text=${t}`,'_blank');
+  fb.style.display='block';fb.style.color='var(--gold)';fb.style.borderColor='rgba(200,152,64,.25)';fb.textContent='✓ WhatsApp opened — your inquiry is pre-filled and ready to send!';
+}
+
+/* ── Product WA ── */
+function pWa(name){
+  const t=encodeURIComponent(`Hello CreativeInter! I'm interested in: ${name}. Please share details, customisation options and current price.`);
+  window.open(`https://wa.me/923159944484?text=${t}`,'_blank');
+}
+
+/* ── Scroll reveal ── */
+const obs=new IntersectionObserver(entries=>{entries.forEach(e=>{if(e.isIntersecting)e.target.classList.add('v')})},{threshold:.08});
+document.querySelectorAll('.r').forEach(el=>obs.observe(el));
+
+/* ── PRODUCTS ── */
+const PRODUCTS=[
+  {id:'s1',cat:'sofa',badge:'Bestseller',name:'5-Seater Sofa Set',desc:'Premium leather sofa set. Solid teak frame, high-density foam. Comfort and durability for modern living rooms.',price:'Contact for price',img:'https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=800&q=80&auto=format&fit=crop'},
+  {id:'s2',cat:'sofa',badge:'New',name:'7-Seater Luxury Sofa',desc:'Premium velvet upholstery over solid teak frame. Fully customisable colour and finish.',price:'Contact for price',img:'https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=800&q=80&auto=format&fit=crop'},
+  {id:'b1',cat:'bed',badge:'Popular',name:'Modern King Bed',desc:'Contemporary design with upholstered headboard and solid wood frame. Available in all sizes.',price:'Contact for price',img:'https://images.unsplash.com/photo-1616594039964-ae9021a400a0?w=800&q=80&auto=format&fit=crop'},
+  {id:'b2',cat:'bed',badge:'',name:'Classic Regular Bed',desc:'Timeless solid sheesham wood bed with carved headboard. Heirloom-quality joinery.',price:'Contact for price',img:'https://images.unsplash.com/photo-1631679706909-1844bbd07221?w=800&q=80&auto=format&fit=crop'},
+  {id:'h1',cat:'home',badge:'Sale',name:'Dressing Table',desc:'Vanity with bevelled mirror and carved wood detailing. Matching cushioned stool included.',price:'₨ 13,599',orig:'₨ 15,000',disc:'-9%',img:'https://images.unsplash.com/photo-1611269154421-4e27233ac5c5?w=800&q=80&auto=format&fit=crop'},
+  {id:'h2',cat:'dining',badge:'',name:'6-Seat Dining Table',desc:'Solid teak dining table with 6 upholstered chairs. Custom sizes and wood finishes available.',price:'Contact for price',img:'https://images.unsplash.com/photo-1524758631624-e2822e304c36?w=800&q=80&auto=format&fit=crop'},
+  {id:'h3',cat:'home',badge:'',name:'Wardrobe',desc:'Spacious sliding-door wardrobe with internal shelving system. Multiple finish options.',price:'₨ 17,500',orig:'₨ 20,000',disc:'-13%',img:'https://images.unsplash.com/photo-1558997519-83ea9252edf8?w=800&q=80&auto=format&fit=crop'},
+  {id:'h4',cat:'dining',badge:'',name:'Center Table',desc:'Premium center table with glass or solid wood top and metal or wood leg options.',price:'Contact for price',img:'https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?w=800&q=80&auto=format&fit=crop'},
+  {id:'o1',cat:'office',badge:'Popular',name:'Executive Office Table',desc:'Spacious L-shaped or straight executive desk with built-in cable management.',price:'Contact for price',img:'https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?w=800&q=80&auto=format&fit=crop'},
+  {id:'o2',cat:'office',badge:'',name:'Ergonomic Office Chair',desc:'High-back mesh or full leather chairs. Lumbar support, adjustable height and armrests.',price:'₨ 15,500',img:'https://images.unsplash.com/photo-1541558869434-2840d308329a?w=800&q=80&auto=format&fit=crop'},
+  {id:'o3',cat:'office',badge:'',name:'Office Workstation',desc:'4- to 8-seat open workstations with acoustic partitions. Ideal for call centres and agencies.',price:'Contact for price',img:'https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&q=80&auto=format&fit=crop'},
+  {id:'o4',cat:'office',badge:'',name:'Reception Desk',desc:'Curved or straight reception counter with under-counter storage. Premium laminate or wood finish.',price:'Contact for price',img:'https://images.unsplash.com/photo-1497366811353-6870744d04b2?w=800&q=80&auto=format&fit=crop'},
+  {id:'h5',cat:'home',badge:'',name:'Shoe Rack',desc:'Multi-tier solid wood shoe rack with open or closed shelving. 6–12 pair capacity.',price:'₨ 5,000',orig:'₨ 5,500',disc:'-9%',img:'https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?w=800&q=80&auto=format&fit=crop'},
+  {id:'h6',cat:'home',badge:'',name:'LED / Book Rack',desc:'Wall-mounted or freestanding LED display and book racks in modern finishes.',price:'₨ 14,000',orig:'₨ 16,000',disc:'-13%',img:'https://images.unsplash.com/photo-1589834390005-5d4d9a9d9d06?w=800&q=80&auto=format&fit=crop'},
+  {id:'h7',cat:'home',badge:'',name:'Entrance Console',desc:'Slim hallway console tables with optional mirror panel and hook rail.',price:'Contact for price',img:'https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?w=800&q=80&auto=format&fit=crop'},
+  {id:'o5',cat:'office',badge:'',name:'Study / Computer Table',desc:'Compact to full-size study and computer desks. Monitor shelf and cable tray included.',price:'₨ 19,250',orig:'₨ 21,000',disc:'-8%',img:'https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?w=800&q=80&auto=format&fit=crop'},
+];
+
+function buildCard(p){
+  const d=document.createElement('div');
+  d.className='p-card';d.dataset.cat=p.cat;
+  d.innerHTML=`
+    <div class="p-img">
+      <img src="${p.img}" alt="${p.name}" loading="lazy">
+      <div class="p-img-overlay"></div>
+      <div class="p-shine"></div>
+      ${p.badge?`<div class="p-badge">${p.badge}</div>`:''}
+    </div>
+    <div class="p-body">
+      <span class="p-cat">${p.cat.charAt(0).toUpperCase()+p.cat.slice(1)} Furniture</span>
+      <div class="p-name">${p.name}</div>
+      <p class="p-desc">${p.desc}</p>
+      ${p.price?`<div class="p-price">${p.orig?`<s>${p.orig}</s> `:''}${p.price}${p.disc?` <span class="disc">${p.disc}</span>`:''}</div>`:''}
+      <button class="p-cta" onclick="pWa('${p.name.replace(/'/g,"\\'")}')">Inquire on WhatsApp →</button>
+    </div>`;
+  return d;
+}
+
+function initGrid(){
+  const grid=document.getElementById('pgrid');
+  grid.innerHTML='';
+  PRODUCTS.forEach(p=>grid.appendChild(buildCard(p)));
+}
+initGrid();
+
+function filterCat(cat){
+  document.querySelectorAll('.cat-tab').forEach(t=>t.classList.remove('active'));
+  const tab=document.querySelector(`.cat-tab[data-cat="${cat}"]`);
+  if(tab)tab.classList.add('active');
+  document.querySelectorAll('.p-card').forEach(c=>{c.style.display=(cat==='all'||c.dataset.cat===cat)?'':'none'});
+  if(cat!=='all')setTimeout(()=>document.getElementById('cats').scrollIntoView({behavior:'smooth'}),50);
+}
+document.getElementById('tab-bar').addEventListener('click',e=>{
+  const btn=e.target.closest('.cat-tab');
+  if(!btn)return;
+  filterCat(btn.dataset.cat);
+});
+</script>
+</body>
+</html>
